@@ -15,7 +15,7 @@ name=CentOS-$releasever - Base - mirrors.aliyun.com
 failovermethod=priority
 baseurl=http://mirrors.aliyun.com/centos/$releasever/os/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
-gpgcheck=1
+gpgcheck=0
 gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
  
 #released updates 
@@ -24,7 +24,7 @@ name=CentOS-$releasever - Updates - mirrors.aliyun.com
 failovermethod=priority
 baseurl=http://mirrors.aliyun.com/centos/$releasever/updates/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
-gpgcheck=1
+gpgcheck=0
 gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
  
 #additional packages that may be useful
@@ -33,5 +33,5 @@ name=CentOS-$releasever - Extras - mirrors.aliyun.com
 failovermethod=priority
 baseurl=http://mirrors.aliyun.com/centos/$releasever/extras/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
-gpgcheck=1
+gpgcheck=0
 gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
